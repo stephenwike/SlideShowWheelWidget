@@ -5,7 +5,7 @@ window.requestAnimFrame = (function(callback) {
     };
 })();
 
-function PlayWheelAnimation(this, event)
+function PlayWheelAnimation()
 {
 	alert('it  works');
 }
