@@ -1,1 +1,3 @@
+alert('h');
+
 PlayWheelAnimation();
