@@ -1,5 +1,5 @@
 alert('boot');
 
-import {main} from './js/SlideShowWheelWidget';
+//import {main} from './js/SlideShowWheelWidget';
 
-main.PlayWheelAnimation();
+//main.PlayWheelAnimation();
