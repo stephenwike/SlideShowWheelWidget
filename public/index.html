@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Wheel Slideshow Test</title>
+</head>
+
+<body>
+
+	<canvas id="slideshow-wheel-widget-container" 
+		width="800px" height="800px" 
+		onMouseMove="GetMousePosition(event)"
+		value='{
+		"CenterX": 400,
+		"CenterY": 400,
+		"WheelRadius": 400, 
+		"WheelEndTheta": 1.57, 
+		"IsRounded": true, 
+		"GridMode": true, 
+		"SubDivisions": 5, 
+		"CenterPaddingRadius": 300, 
+		"HasLabels": true}'>
+		our browser does not support the HTML5 canvas tag.
+	</canvas>
+	
+	<div id="slideshow-wheel-widget-collection">
+		<img id="1" alt="Test Image 01" src="img/testimage1.jpg">
+		<img id="2" alt="Test Image 02" src="img/testimage2.jpg">
+		<img id="3" alt="Test Image 03" src="img/testimage3.jpg">
+		<img id="4" alt="Test Image 04" src="img/testimage4.jpg">
+		<img id="5" alt="Test Image 05" src="img/testimage5.jpg">
+		<img id="6" alt="Test Image 06" src="img/testimage6.jpg">
+		<img id="7" alt="Test Image 07" src="img/testimage7.jpg">
+		<img id="8" alt="Test Image 08" src="img/testimage8.jpg">
+	</div>
+	
+	<script type="text/javascript" src="./../external/myAlerts.js"></script>
+	<script type="text/javascript" src="js/Tests.js"></script>
+	<script type="text/javascript" src="js/Grids.js"></script>
+	<script type="text/javascript" src="js/Labels.js"></script>
+	<script type="text/javascript" src="js/Slides.js"></script>
+	<script type="text/javascript" src="js/Params.js"></script>
+	<script type="text/javascript" src="js/SlideShowWheelWidget.js"></script>
+	
+
+</body>
+
+</html>
